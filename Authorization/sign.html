@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="./autho.css">
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png">
+        <title>Authorization</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <main>
+              <div class="form signUp-form">
+                <h2>Registration</h2>
+                <form>
+                  <!-- <label for="user_name">Name</label>
+                  <input type="text" id="user_name" placeholder="Ruslan Isaev" aria-label="Ruslan Isaev"/>
+      
+                  <label for="user_email">Email</label>
+                  <input type="email" id="user_email" placeholder="example@alatoo.edu.kg" aria-label="example@alatoo.edu.kg"/>
+      
+                  <label for="user_password">Password</label>
+                  <input type="password" for="user_password" /> -->
+
+                  <div class="mb-3">
+                    <label for="username" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="username" placeholder="Ruslan Isaev">
+                  </div>
+                  <div class="mb-3">
+                    <label for="user_email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="user_email" placeholder="example@alatoo.edu.kg">
+                  </div>
+                  <div class="mb-3">
+                    <label for="user_password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="user_password">
+                  </div>
+      
+                  <button type="submit">Sign Up</button>
+                </form>
+              </div>
+      
+              <div class="form signIn-form">
+                <h2>Login</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="user_email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="user_email">
+                      </div>
+                      <div class="mb-3">
+                        <label for="user_password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="user_password">
+                      </div>
+          
+
+                  <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Role</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Teacher
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Student
+                        </label>
+                      </div>
+
+      
+                  <button type="submit">Sign In</button>
+                </form>
+              </div>
+            </main>
+            <aside>
+              <div class="sign-in-block">
+                <h2>Already have an account?</h2>
+      
+                <button type="submit" id="sign-in-btn">Sign In</button>
+              </div>
+              <div class="sign-up-block">
+                <h2>New User?</h2>
+      
+                <button type="submit" id="sign-up-btn">Sign Up</button>
+              </div>
+            </aside>
+          </div>
+          <script src="./index.js"></script>
+    </body>
+</html>
